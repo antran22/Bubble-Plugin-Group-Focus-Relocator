@@ -1,0 +1,138 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 0,
+        "width": 0
+    },
+    "display": "Group Focus Relocator",
+    "fields": {
+        "AAG": {
+            "caption": "Group Focus ID",
+            "editor": "DynamicValue",
+            "name": "group_focus_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Placement",
+            "default_val": "bottom-end",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "placement",
+            "options": "top,top-start,top-end,right,right-start,right-end,bottom,bottom-start,bottom-end,left,left-start,left-end",
+            "rank": 5
+        },
+        "AAP": {
+            "caption": "Follow Position",
+            "default_val": true,
+            "doc": "Ensure the Group Focus always follows the position of the reference element (on scroll).",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "follow_position",
+            "rank": 6
+        },
+        "AAQ": {
+            "caption": "Placement Optimizer",
+            "default_val": "None",
+            "doc": "Choose a placement adjusting method to re-align the group focus.",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "placement_optimizer",
+            "options": "None,Flip,Auto Placement",
+            "rank": 7
+        },
+        "AAR": {
+            "caption": "Autohide",
+            "default_val": "Disabled",
+            "doc": "Hide the Group Focus when either the GF itself or the reference is scrolled out of view (out of a table)",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "hide",
+            "options": "Disabled,Group Focus escaped,Reference hidden,Both",
+            "rank": 14
+        },
+        "AAV": {
+            "caption": "Main Axis Offset",
+            "default_val": 0,
+            "doc": "Vertical offset for 'top' and 'bottom' placements; Horizontal offset for 'left' and 'right' placements",
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "offset_main_axis",
+            "rank": 3
+        },
+        "AAW": {
+            "caption": "Cross Axis Offset",
+            "default_val": 0,
+            "doc": "Horizontal offset for 'top' and 'bottom' placements; Vertical offset for 'left' and 'right' placements",
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "offset_cross_axis",
+            "rank": 4
+        },
+        "AAX": {
+            "caption": "For top/bottom placement, Main Axis = Vertical, and Cross Axis = Horizontal",
+            "editor": "Label",
+            "name": "axis_guide_1",
+            "rank": 1
+        },
+        "AAY": {
+            "caption": "For left/right placement, Main Axis = Horizontal, and Cross Axis = Vertical",
+            "editor": "Label",
+            "name": "axis_guide_2",
+            "rank": 2
+        },
+        "AAZ": {
+            "caption": "Flip will flip the Group Focus on the opposite the default placement to keep it in view.",
+            "editor": "Label",
+            "name": "placement_optimizer_guide_1",
+            "rank": 8
+        },
+        "AAa": {
+            "caption": "Shift will shift the Group Focus to keep it in view.",
+            "editor": "Label",
+            "name": "shift_guide_1",
+            "rank": 12
+        },
+        "AAb": {
+            "caption": "Aggressive Shift is similar shift, but on both axis. May cause the Group Focus to overlap or be detached from the Reference element.",
+            "editor": "Label",
+            "name": "shift_guide_2",
+            "rank": 13
+        },
+        "AAc": {
+            "caption": "Auto Placement will move the Group Focus to the placement with most space available.",
+            "editor": "Label",
+            "name": "placement_optimizer_guide_4",
+            "rank": 9
+        },
+        "AAd": {
+            "caption": "Shift Option",
+            "default_val": "None",
+            "doc": "Choose a shifting method to keep the Group Focus in view.",
+            "editor": "Dropdown",
+            "name": "shift_type",
+            "options": "None,Shift,Aggressive Shift",
+            "rank": 11
+        },
+        "AAe": {
+            "caption": "Animate Placement Change",
+            "default_val": true,
+            "doc": "If you use a Placement Optimizer, checking this option will animate the placement change. Consider turning this off if performance is affected.",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "animate_placement",
+            "rank": 10
+        },
+        "AAf": {
+            "caption": "Animate Appearance",
+            "default_val": true,
+            "doc": "This option will animate the appearance of the Group Focus by Fading. Will be played upon first display and auto-hide/show. Consider turning this off if performance is affected.",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "animate_appearance",
+            "rank": 15
+        }
+    },
+    "icon": "ion-android-checkbox-blank"
+}

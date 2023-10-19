@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "productivity",
+        "2": "technical"
+    },
+    "description": "Group Focus Positioning on Steroid.\n\nChannel the power of Floating UI (ex. Popper.js), this plugin will help you create any Group Focus positioning to your heart desire.\n\nTired of creating new Reusable Element for every context menu in a Repeating Group? Or tired of calculating the offset to keep your Group Focus aligned. This is the solution for you.\n\nThis plugin is brought to you by CitizenDev.",
+    "image": "//meta-l.cdn.bubble.io/f1697724042056x973955725840014400/Frame%202.png",
+    "license": "open_source",
+    "name": "✳️ Group Focus Relocator"
+}

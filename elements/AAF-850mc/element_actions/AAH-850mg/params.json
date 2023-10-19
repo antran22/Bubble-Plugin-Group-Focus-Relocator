@@ -1,0 +1,21 @@
+{
+    "caption": "Relocate Group Focus of a ",
+    "fields": {
+        "AAI": {
+            "caption": "Reference Element ID",
+            "editor": "DynamicValue",
+            "name": "reference_element_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "Clipping Element ID",
+            "doc": "Use this if you need to control the overflow boundary, for visibility optimizers (flip, shift, etc). By default looks for a parent Repeating Group, if not found then use the whole screen.",
+            "editor": "DynamicValue",
+            "name": "clipping_parent_id",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}
